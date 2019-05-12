@@ -1,8 +1,3 @@
-##Script to play YouTube videos in MPV player with random qualities.
-# MPV player and Youtube-dl must be installed
-# youtube-dl must have to be latest
-# https://github.com/ytdl-org/youtube-dl/blob/master/README.md
-
 #!/bin/bash
 if [[ `which mpv` == "" ]]; then
   echo -e "\n  mpv is not installed.\n\n  install using: \n\n  sudo apt-get install mpv\n"
